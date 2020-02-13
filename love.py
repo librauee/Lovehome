@@ -98,10 +98,7 @@ class App(object):
         
     def open_pic(self):
         self.i=0
-        chp="管珍妮，\n我希望千年万年兵荒马乱，你还在，我还爱。"
-        text=tkinter.Text(self.win2,width=10,height=5)
-        text.insert(tkinter.INSERT,chp)
-        text.place(x=60,y=200) 
+        self.get_chp()
         self.pic_process(self.path[self.i])
 
 
